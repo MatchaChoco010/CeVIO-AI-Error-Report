@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <Nullable>Enable</Nullable>
+    <LangVersion>Latest</LangVersion>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+    <NeutralLanguage>ja</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CeVIO.Talk.RemoteService2">
+      <HintPath>C:\Program Files\CeVIO\CeVIO AI\CeVIO.Talk.RemoteService2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
